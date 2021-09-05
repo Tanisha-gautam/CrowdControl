@@ -10,27 +10,18 @@
 <body>
   <form action="contact-view.php" method="post">
     
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <a class="navbar-brand" href="#">CrowdCon</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav ml-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="about.html">About Us</a>
-      </li>
-        <li class="nav-item">
-        <a class="nav-link" href="conatct.html">Contact Us</a>
-      </li>
-      </ul>
-  </div>
-</nav>
-
+      <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        </label>
+        <label class="logo">CrowdCon</label>
+        <ul>
+            <li><a class="active" href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="contact.html">CONTACT US</a></li>
+        </ul>
+    </nav>
     
     <div class="left-b0x">
         <h1>Sign Up</h1>
@@ -38,9 +29,10 @@
         <input type="email" class="input-box" placeholder="Email" name="email">
         <input type="password" class="input-box" placeholder="Enter Password" name="password">
         <input type="password" class="input-box" placeholder="Re-enter Password" name="repassword">
-        <input type="submit" class="submit-btn" value="Sign Up">
- 
+        <input type="submit" class="submit-btn" name = "submit" value="Sign Up">
+   
+        
     </div>
-  </form>
-    </body>
+</form>
+</body>
 </html>
