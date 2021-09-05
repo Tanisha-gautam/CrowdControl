@@ -13,7 +13,7 @@ Shikha kumari
 In India, we are facing operational issues such as crowd management at vaccination centers.people are standing in long queues to get vaccinated due to which there is too much crowd accumulation at vaccination centers.
 
 #Proposed Solution 
-To manage crowds at vaccination centers, we are building a IoT model prototype wherein, we can calculate the approximate strength of people who are planning to get vaccinated at particular vaccination centres. Also we will provide a web application where people can go through the data about the crowd at vaccination centers.,
+To manage crowds at vaccination centers, we are building an IoT model prototype wherein, we can calculate the approximate strength of people who are planning to get vaccinated at particular vaccination centres. Also we will provide a web application where people can go through the data about the crowd at vaccination centers.,
 
 I#nstructions to run the project
 
